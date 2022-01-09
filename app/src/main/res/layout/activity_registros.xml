@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registros">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRARSE"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre"/>
+            <EditText
+                android:id="@+id/etApellidoP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Apellido Paterno"/>
+            <EditText
+                android:id="@+id/etApellidoM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Apellido Materno"/>
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo Electronico"/>
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"/>
+            <EditText
+                android:id="@+id/etEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Edad"/>
+            <EditText
+                android:id="@+id/etPeso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Peso"/>
+            <EditText
+                android:id="@+id/etFechaNaci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fecha Nacimiento"/>
+            <EditText
+                android:id="@+id/etCelular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Celular"/>
+            <EditText
+                android:id="@+id/etCelEmergencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Celular Emergencia"/>
+            <EditText
+                android:id="@+id/etDomicilio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Domicilio"/>
+            <EditText
+                android:id="@+id/etRfc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="RFC"/>
+            <EditText
+                android:id="@+id/etSangre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tipo Sangre"/>
+            <EditText
+                android:id="@+id/etCurp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Curp"/>
+            <EditText
+                android:id="@+id/etPostal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Código Postal"/>
+            <EditText
+                android:id="@+id/etSexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sexo"/>
+            <EditText
+                android:id="@+id/etEstado_civil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Estado Civil"/>
+            <EditText
+                android:id="@+id/etEstado_fisico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Estado Fisico"/>
+            <EditText
+                android:id="@+id/etHospital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hospital"/>
+            <EditText
+                android:id="@+id/etMunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Municipio"/>
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
