@@ -47,7 +47,7 @@ public class registros extends AppCompatActivity {
         etSangre=(EditText)findViewById(R.id.etSangre);
         etEstadoCivil=(EditText)findViewById(R.id.etEstado_civil);
         etRfc=(EditText)findViewById(R.id.etRfc);
-        etEstadoFisico=(EditText)findViewById(R.id.etEstado_fisico);
+         etEstadoFisico=(EditText)findViewById(R.id.etEstado_fisico);
         etPeso=(EditText)findViewById(R.id.etPeso);
         etHospital=(EditText)findViewById(R.id.etHospital);
         etEmail=(EditText)findViewById(R.id.etEmail);
